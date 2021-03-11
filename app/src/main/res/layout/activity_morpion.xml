@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_morpion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Morpion"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fd">
+
+    <!-- Bouton 1 -->
+    <Button
+        android:id="@+id/button00"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=" "
+        android:textSize="20sp" />
+
+    <!-- Colonne 1 -->
+    <View
+        android:id="@+id/column1"
+        android:layout_alignTop="@id/button00"
+        android:layout_alignBottom="@id/button20"
+        android:layout_height="235dp"
+        android:layout_width="5dp"
+        android:background="@android:color/background_dark"
+        android:layout_toRightOf="@id/button00" />
+
+    <!-- Ligne 1 -->
+    <View
+        android:id="@+id/line1"
+        android:layout_width="235dp"
+        android:layout_height="5dp"
+        android:layout_alignLeft="@id/button00"
+        android:layout_alignRight="@id/button02"
+        android:background="@android:color/background_dark"
+        android:layout_below="@id/button00" />
+
+    <!-- Bouton 2 -->
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/column1"
+        android:textSize="20sp" />
+
+    <!-- Colonne 2 -->
+    <View
+        android:id="@+id/column2"
+        android:layout_alignTop="@id/button00"
+        android:layout_alignBottom="@id/button20"
+        android:layout_width="5dp"
+        android:layout_height="235dp"
+        android:background="@android:color/background_dark"
+        android:layout_toRightOf="@id/button01" />
+
+    <!-- Bouton 3 -->
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/column2"
+        android:textSize="20sp" />
+
+    <!-- Bouton 4 -->
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line1"
+        android:textSize="20sp" />
+
+    <!-- Bouton 5 -->
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line1"
+        android:layout_toRightOf="@id/column1"
+        android:textSize="20sp" />
+
+    <!-- Bouton 6 -->
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line1"
+        android:layout_toRightOf="@id/column2"
+        android:textSize="20sp" />
+
+    <!-- Ligne 2 -->
+    <View
+        android:id="@+id/line2"
+        android:layout_width="235dp"
+        android:layout_height="5dp"
+        android:layout_alignLeft="@id/button00"
+        android:layout_alignRight="@id/button02"
+        android:background="@android:color/background_dark"
+        android:layout_below="@id/button10" />
+
+    <!-- Bouton 7 -->
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line2"
+        android:textSize="20sp" />
+
+    <!-- Bouton 8 -->
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line2"
+        android:layout_toRightOf="@id/column1"
+        android:textSize="20sp" />
+
+    <!-- Bouton 9 -->
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line2"
+        android:layout_toRightOf="@id/column2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/button20"
+        android:layout_marginTop="20dp"
+        android:text="Premier joueur ?"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:text="Retour"
+        android:layout_below="@id/player"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

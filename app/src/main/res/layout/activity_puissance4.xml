@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_puissance4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Puissance4"
+    android:background="#1E90FF">
+
+    <!-- Ligne 1 -->
+    <!-- btn 1 -->
+    <Button
+        android:id="@+id/btn00"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text=" "
+        android:textSize="20sp" />
+
+    <!-- btn 2 -->
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/btn00"
+        android:textSize="20sp" />
+
+    <!-- btn 3 -->
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/btn01"
+        android:textSize="20sp" />
+
+    <!-- btn 4 -->
+    <Button
+        android:id="@+id/btn03"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/btn02"
+        android:textSize="20sp" />
+
+    <!-- btn 5 -->
+    <Button
+        android:id="@+id/btn04"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/btn03"
+        android:textSize="20sp" />
+
+    <!-- btn 6 -->
+    <Button
+        android:id="@+id/btn05"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn04"/>
+
+    <!-- btn 7 -->
+    <Button
+        android:id="@+id/btn06"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn05"/>
+
+    <!-- Ligne 2 -->
+    <!-- btn 1 -->
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp" />
+
+    <!-- btn 2 -->
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn10"/>
+
+    <!-- btn 3 -->
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn11"/>
+
+    <!-- btn 4 -->
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn12"/>
+
+    <!-- btn 5 -->
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn13"/>
+
+    <!-- btn 6 -->
+    <Button
+        android:id="@+id/btn15"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn14"/>
+
+    <!-- btn 7 -->
+    <Button
+        android:id="@+id/btn16"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn15"/>
+
+    <!-- Ligne 3 -->
+    <!-- btn 1 -->
+    <Button
+        android:id="@+id/btn20"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp" />
+
+    <!-- btn 2 -->
+    <Button
+        android:id="@+id/btn21"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn20"/>
+
+    <!-- btn 3 -->
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn21"/>
+
+    <!-- btn 4 -->
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn12"/>
+
+    <!-- btn 5 -->
+    <Button
+        android:id="@+id/btn24"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn13"/>
+
+    <!-- btn 6 -->
+    <Button
+        android:id="@+id/btn25"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn14"/>
+
+    <!-- btn 7 -->
+    <Button
+        android:id="@+id/btn26"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn10"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn15"/>
+
+    <!-- Ligne 4 -->
+    <!-- btn 1 -->
+    <Button
+        android:id="@+id/btn30"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp" />
+
+    <!-- btn 2 -->
+    <Button
+        android:id="@+id/btn31"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn10"/>
+
+    <!-- btn 3 -->
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn11"/>
+
+    <!-- btn 4 -->
+    <Button
+        android:id="@+id/btn33"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn12"/>
+
+    <!-- btn 5 -->
+    <Button
+        android:id="@+id/btn34"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn13"/>
+
+    <!-- btn 6 -->
+    <Button
+        android:id="@+id/btn35"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn14"/>
+
+    <!-- btn 7 -->
+    <Button
+        android:id="@+id/btn36"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn20"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/btn15"/>
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/btn32"
+        android:layout_marginTop="20dp"
+        android:text="Premier joueur ?"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/btn36"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="68dp"
+        android:text="Retour"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

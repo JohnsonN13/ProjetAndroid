@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_memory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Memory">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/grid"
+        android:numColumns="4"
+        android:stretchMode="columnWidth">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/grid"
+        android:layout_marginTop="10dp"
+        android:text="Joueur 1 : 0"
+        android:layout_marginLeft="50dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/player1"
+        android:layout_below="@id/grid"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Joueur 2 : 0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:text="Retour"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|bottom"
+        android:layout_below="@id/player2"
+        android:textSize="20sp" />
+
+</RelativeLayout>
