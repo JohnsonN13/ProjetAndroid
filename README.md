@@ -1,10 +1,10 @@
-Projet d'Université 2018
+#titre Projet d'Université 2018
 
-Fait sur Android Studio.
-Taille de l'écran utilisé : Pixel 4
+Fait sur Android Studio.  
+Taille de l'écran utilisée : Pixel 4
 
-Technologies
+##titre Technologies utilisées :
 
-''''Java
-''''XML
-''''Android Studio
+''''Java  
+''''XML  
+''''Android Studio  
